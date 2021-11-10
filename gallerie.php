@@ -24,32 +24,39 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 	<style>
-	.mesThumbnails {
-		cursor: pointer;
-	}
+		.mesThumbnails {
+			cursor: pointer;
+		}
 
-	.figure {
-		position: relative;
-	}
+		.figure {
+			position: relative;
+		}
 
-	.figure-caption {
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		color: white;
-		background-color: rgba(0, 0, 0, 0.5);
-	}
+		.figure-caption {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		
 	</style>
 
-	<title>City Gallery photo</title>
+	<title>Gallerie</title>
 </head>
 
 <body>
 
 	<div class="container-fluid">
 		<div class="jumbotron">
-			<h1 class="display-4">City Photo gallery</h1>
-			<p class="lead">Gallerie photo des plus belles villes du monde, pour le plaisir des yeux</p>
+			<h1 class="display-4 text-center ">Galerie photo</h1>
+			<p class="lead"></p>
+			<hr class="my-4">
+			<p class="container">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda est sapiente amet
+				tempora
+				quam obcaecati architecto eum, suscipit ducimus facilis voluptas nobis eligendi, voluptatem aut ad
+				exercitationem quibusdam, ipsum mollitia.
+			</p>
 		</div>
 	</div>
 
@@ -59,7 +66,7 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 				<figure class="figure">
 					<img src="img/images/adult-1867665_1280.jpg" alt="" id="imagePrincipale" class="w-100">
 					<figcaption class="figure-caption">
-						<h3 class="p-3">Mon portfolio : <span id="textCaption">une image de ville 1</span>.</h3>
+						<h3 class="p-3">Illustration : <span id="textCaption">une image de ville 1</span>.</h3>
 					</figcaption>
 				</figure>
 			</div>
@@ -111,10 +118,10 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 	<!-- Bootstrap Bundle with Popper -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
+		</script>
 
 	<!-- js perso -->
 	<script src="js/gallerie.js"></script>
