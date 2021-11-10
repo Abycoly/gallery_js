@@ -39,8 +39,11 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 		color: white;
 		background-color: rgba(0, 0, 0, 0.5);
 	}
-	</style>
 
+	.jumbotron {
+		padding: 1rem 1rem !important;
+	}
+	</style>
 	<title>City Gallery photo</title>
 </head>
 
@@ -49,9 +52,7 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 	<div class="container-fluid">
 		<div class="jumbotron">
 			<h1 class="display-4">City Photo gallery</h1>
-			<p class="lead">Gallerie photo des plus belle ville du monde, pour le plaisir des yeux</p>
-			<hr class="my-4">
-			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<p class="lead">Gallerie photo des plus belles villes du monde, pour le plaisir des yeux.</p>
 		</div>
 	</div>
 
