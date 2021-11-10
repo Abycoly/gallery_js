@@ -43,6 +43,11 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 	.jumbotron {
 		padding: 1rem 1rem !important;
 	}
+
+	h1,
+	.lead {
+		text-align: center !important;
+	}
 	</style>
 	<title>City Gallery photo</title>
 </head>
