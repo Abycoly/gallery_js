@@ -52,11 +52,7 @@ $liste_images = scandir( __DIR__ . '/img/thumbnails');
 	<div class="container-fluid">
 		<div class="jumbotron">
 			<h1 class="display-4">City Photo gallery</h1>
-<<<<<<< HEAD
 			<p class="lead">Gallerie photo des plus belles villes du monde, pour le plaisir des yeux.</p>
-=======
-			<p class="lead">Gallerie photo des plus belles villes du monde, pour le plaisir des yeux</p>
->>>>>>> 9eb5591bff27018f8057c2de8d3a0b5172a8b23f
 		</div>
 	</div>
 
